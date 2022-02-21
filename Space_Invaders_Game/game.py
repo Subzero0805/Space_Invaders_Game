@@ -14,28 +14,28 @@ pygame.display.set_caption("Space Invader Game")
 #Loading in the enemy's
 #Using caps for variables as these be constant
 BASIC_ALIEN = pygame.transform.scale(
-    pygame.image.load(os.path.join("first_python_game\Assets","Alien_sprite.png")), (75,75))
+    pygame.image.load(os.path.join("Space_Invaders_Game\Assets","Alien_sprite.png")), (75,75))
 FAST_ALIEN = pygame.transform.scale(
-    pygame.image.load(os.path.join("first_python_game\Assets","fast_alien_sprite.png")),(75,75))
+    pygame.image.load(os.path.join("Space_Invaders_Game\Assets","fast_alien_sprite.png")),(75,75))
 GUNNER_ALIEN = pygame.transform.scale(
-    pygame.image.load(os.path.join("first_python_game\Assets","gunner_alien_sprite.png")),(75,75))
+    pygame.image.load(os.path.join("Space_Invaders_Game\Assets","gunner_alien_sprite.png")),(75,75))
 
 #Player ship
 PLAYER_SHIP = pygame.transform.scale(
-    pygame.image.load(os.path.join("first_python_game\Assets","player_ship.png")), (100, 100))
+    pygame.image.load(os.path.join("Space_Invaders_Game\Assets","player_ship.png")), (100, 100))
 
 #Loading in Bullets/Lasers
 #Basic Alien Bullet
-BASIC_BULLET = pygame.image.load(os.path.join("first_python_game\Assets", "basic_bullet.png"))
+BASIC_BULLET = pygame.image.load(os.path.join("Space_Invaders_Game\Assets", "basic_bullet.png"))
 #Fast alien Bullet
-FAST_BULLET = pygame.image.load(os.path.join("first_python_game\Assets","fast_bullet.png"))
+FAST_BULLET = pygame.image.load(os.path.join("Space_Invaders_Game\Assets","fast_bullet.png"))
 #Gunner Bullet
-GUNNER_BULLET = pygame.image.load(os.path.join("first_python_game\Assets","gunner_bullet.png"))
+GUNNER_BULLET = pygame.image.load(os.path.join("Space_Invaders_Game\Assets","gunner_bullet.png"))
 #Player bullet
-PLAYER_BULLET = pygame.image.load(os.path.join("first_python_game\Assets","ship_bullet.png"))
+PLAYER_BULLET = pygame.image.load(os.path.join("Space_Invaders_Game\Assets","ship_bullet.png"))
 
 #Load in background
-BG = pygame.image.load(os.path.join("first_python_game\Assets","background.png"))
+BG = pygame.image.load(os.path.join("Space_Invaders_Game\Assets","background.png"))
 
 #Creating a bullet class
 class Bullet:
